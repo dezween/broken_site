@@ -1,0 +1,150 @@
+/* шрифт вроде подключил, но почему-то не работает */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d7e5ff;
+    font-family: 'Roboto', sans-serif;
+}
+/* я хотел чтобы заголовок был по середине, но у меня не получилось */
+/* и тень какая то не та */
+h1 {
+    text-align: center;
+    font-size: 65px;
+    color: #fcc5c5;
+    text-shadow: 5px 5px 0px rgb(56, 56, 56);
+}
+.menu {
+    margin-top: 80px;
+    text-align: center;
+    background-color: #fcc5c5;
+    padding: 50px 0;
+}
+/* ссылки стоят рядом с друг другом, у меня не получилось их раздвинуть */
+/* и рамка слишком толстая */
+.menu a {
+    margin: 0 100px;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(56, 56, 56);
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 8px 30px;
+    transition: 0.5s;
+    border: 2px solid aliceblue;
+}
+/* здесь я планировал сделать увеличение кнопки при наведении мыши, но у меня не получилось */
+.menu a:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(56, 56, 56);
+    box-shadow: 0 0 50px aliceblue;
+}
+
+.genrename {
+    margin-top: 120px;
+    font-size: 40px;
+    color: #fcc5c5;
+    text-shadow: 5px 5px 0px rgb(56, 56, 56);
+}
+.films-wrapper {
+    text-align: center;
+}
+.filmimg {
+    width: 90%;
+    height: 500px;
+}
+/* что-то не так с этими карточками */
+.filmcard {
+    background-color: #eafafd;
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 1%;
+    padding: 20px;
+    box-shadow: 7px 7px 3px black;
+    box-sizing: border-box;
+}
+.filmcard p {
+    text-align: justify;
+    display: block;
+    height: 150px;
+}
+/* кнопка тоже какая-то не такая */
+.button {
+    background-color: #8b80f0;
+    border-radius: 20px;
+    width: 110px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    transition: 0.5s;
+    color: aliceblue;
+    font-weight: bold;
+}
+/* наведение мыши на кнопку здесь тоже не работает */
+.button:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(56, 56, 56);
+    box-shadow: 0 0 50px aliceblue;
+}
+.food {
+    margin-top: 80px;
+    color: rgb(139, 196, 250);
+    font-size: 40px;
+    text-align: center;
+}
+caption {
+    font-size: 30px;
+    margin: 10px;
+}
+/* что то не так с этой таблицей */
+table {
+    width: 40%;
+    margin: 40px auto 0;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(139, 196, 250);
+}
+th {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+.price {
+    vertical-align: center;
+}
+.listwrapper {
+    width: 600px;
+    margin: 60px auto 0;
+}
+.listheader {
+    font-size: 40px;
+    color: rgb(139, 196, 250);
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type:circle;
+    font-size: 24px;
+}
+/* ой, а почему этот заголовок по центру не выставился */
+.adress {
+    text-align: center;
+    font-size: 24px;
+}
+.welcome {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: rgb(139, 196, 250);
+}
